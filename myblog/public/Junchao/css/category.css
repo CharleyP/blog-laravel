@@ -1,0 +1,42 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.cate1-add{
+	margin-bottom: 10px;
+}
+table thead tr{
+	background: #ccc;
+	vertical-align: middle;
+}
+table thead th{
+	vertical-align: middle;
+	padding: 0px;
+}
+
+table tr td span.glyphicon{
+	cursor: pointer;
+}
+.add-layer1,.add-layer2,.change-layer1,.change-layer2{
+	border:1px solid #000;
+	overflow: hidden;
+	border-radius: 5px;
+	width:300px;
+	padding: 20px 0px;
+}
+.add-layer1 input.add-content1,.add-layer2 input.add-content2,.change-layer1 input.change-content1,.change-layer2 input.change-content2{
+	width:250px;
+	height:30px;
+	margin:10px 0px 10px 25px;
+}
+.add-layer1 label,.add-layer2 label,.change-layer1 label,.change-layer2 label{
+	margin-left:25px;
+}
+.add-layer1 input.add-check1,.add-layer2 input.add-check2,.change-layer1 input.change-check1,.change-layer2 input.change-check2{
+	margin-left:20px;
+}
+.add-layer1 .add-sub1,.add-layer2 .add-sub2,.change-layer1 .change-sub1,.change-layer2 .change-sub2{
+	display:block;
+	width:120px;
+	margin:0px auto;
+}

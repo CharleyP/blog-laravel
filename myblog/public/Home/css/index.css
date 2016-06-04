@@ -1,0 +1,53 @@
+.banner{
+	height: 300px;
+	background-image: url();
+	/* background-repeat: no-repeat; */
+	background-position: center;
+}
+.info{
+	background-color: #fff;
+	line-height: 60px;
+	font-size: 16px;
+}
+.mainList{
+	background-color: #eee;
+}
+.mainList .small-list ul li{
+	list-style-type:none;
+	border-bottom:1px dotted #000;
+	margin: 30px 0px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+}
+.mainList .small-list ul li .row{
+	margin: 20px 0px;
+}
+.mainList .small-list ul li .row .article_content{
+	height: 80px;
+	text-indent: 30px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+}
+.mainList .small-list ul li h4{
+	overflow: hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+}
+.mainList .small-list ul li h4 a{
+	color: #000;
+	text-decoration: none;
+}
+.right-nav{
+	margin: 20px 0px;
+	border: 1px solid #333;
+}
+.right-nav h4{
+	margin-left: 10px;
+}
+.right-nav ul li a{
+	color: #ccc;
+	text-decoration: none;
+}
+.right-nav ul li a:hover{
+	color: #333;
+}

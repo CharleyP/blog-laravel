@@ -1,0 +1,33 @@
+.category div.category-nav{
+	margin-top: 20px;
+}
+.category div.treeview {
+  position: relative;
+}
+.category div.treeview a.category1 {
+	padding: 10px 5px 10px 15px;
+	display: block;
+	background-color: #fff;
+	color: #000;
+	text-decoration: none;
+}
+.category div.treeview .treeview-menu {
+	display: none;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+.category .treeview-menu li.category2{
+	background-color: #fff;
+}
+.category .treeview-menu li a {
+	padding: 5px 5px 5px 15px;
+	display: block;
+	font-size: 14px;
+	margin-left: 15px;
+	color: #000;
+	text-decoration: none;
+}
+.category .treeview-menu li a:hover i{
+	color: red;
+}

@@ -1,0 +1,48 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.list{
+	background-color: #eee;
+}
+.list .position{
+	margin-top: 15px;
+	font-size: 14px;
+	margin-bottom: -5px;
+}
+.list .position a{
+	color: #000;
+	text-decoration: none;
+}
+.list .position a:hover{
+	color: red;
+}
+.article ul li{
+	list-style-type:none;
+	border-bottom:1px dotted #000;
+	margin-bottom: 30px;
+	margin-top: 20px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+}
+.article ul li .row{
+	margin: 20px 0px;
+}
+.article ul li .row .article_content{
+	height: 80px;
+	text-indent: 30px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+}
+.article ul li .row p{
+	text-indent: 30px;
+}
+.article ul li h4{
+	overflow: hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+}
+.article ul li h4 a{
+	color: #000;
+	text-decoration: none;
+}
